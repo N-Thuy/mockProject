@@ -1,0 +1,10 @@
+i.material-icons {
+    color: blue;
+    padding: 5px 20px;
+
+}
+h6.MuiTypography-root.MuiTypography-h6 {
+    margin: 20px 0 80px 550px;
+    font-size: 40px;
+    font-family: 'Patrick Hand', cursive;
+}

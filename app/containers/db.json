@@ -1,0 +1,50 @@
+{
+    "users": [
+        {"email": "admin@gmail.com", "password": "admin", "role": "admin"},
+        {"email": "user@gmail.com", "password": "user", "role": "user"},
+        {"email": "nvien@gmail.com", "password": "nvien", "role": "nhanVien"}
+    ],
+    "students": [
+        {"id": "S1","name": "Nguyễn Thị Thúy", "birdthday": "30/04/1997","sex": "nữ", "class": "[C1,C4]", "teacher": "T1"},
+        {"id": "S2","name": "Nguyễn Kim Hùng", "birdthday": "30/04/1997","sex": "nam", "class": "C1", "teacher": "T1"},
+        {"id": "S3","name": "Nguyễn Duy Thuần", "birdthday": "30/04/1997","sex": "nam", "class": "C1", "teacher": "T2"},
+        {"id": "S4","name": "Hoàng Minh Nhật", "birdthday": "30/04/1997","sex": "nam", "class": "C2", "teacher": "T2"},
+        {"id": "S5","name": "Nguyễn Văn Dũng", "birdthday": "30/04/1999","sex": "nữ", "class": "C2", "teacher": "T2"},
+        {"id": "S6","name": "Trần Trọng Nhất", "birdthday": "30/04/1998","sex": "nam", "class": "[C2, C4]", "teacher": "[T2,T1]"},
+        {"id": "S7","name": "Anh Khương", "birdthday": "30/04/1995","sex": "nam", "class": "C3", "teacher": "T3"},
+        {"id": "S8","name": "Nguyễn Thị Hoa", "birdthday": "30/04/1997","sex": "nữ", "class": "C3", "teacher": "T3"},
+        {"id": "S9","name": "Nguyễn Tâm", "birdthday": "30/04/1997","sex": "nam", "class": "C3", "teacher": "T3"},
+        {"id": "S10","name": "Nguyễn Thị Thông", "birdthday": "30/04/1995","sex": "nữ", "class": "C4", "teacher": "T1"}
+    ],
+    "teachers": [
+        {"id": "T1", "name": "Lê Hồng Lê", "class": "[C1, C4]"},
+        {"id": "T2", "name": "Nguyễn Hoài Nam", "class": "C2"},
+        {"id": "T3", "name": "Vũ Thơm", "class": "C3"}
+    ],
+    "classes": [
+        {"id": "C1", "name": "Speaking"},
+        {"id": "C2", "name": "Listening"},
+        {"id": "C3", "name": "Kid"},
+        {"id": "C4", "name": "Reading"}
+    ],
+    "gest": [
+        {"id": "G1","name": "Nguyễn Thị Lan", "birdthday": "30/04/1997","sex": "nữ", "position": "P1"},
+        {"id": "G2","name": "Nguyễn Kim Hùng", "birdthday": "30/04/1997","sex": "nam", "class": "P2"},
+        {"id": "G3","name": "Nguyễn Duy Thuần", "birdthday": "30/04/1997","sex": "nam", "class": "P3"},
+        {"id": "G4","name": "Hoàng Minh Nhật", "birdthday": "30/04/1997","sex": "nam", "class": "P4"},
+        {"id": "G5","name": "Nguyễn Văn Dũng", "birdthday": "30/04/1999","sex": "nữ", "class": "P4"},
+        {"id": "G6","name": "Trần Trọng Nhất", "birdthday": "30/04/1998","sex": "nam", "class": "P4"},
+        {"id": "G7","name": "Anh Khương", "birdthday": "30/04/1995","sex": "nam", "class": "P4"},
+        {"id": "G8","name": "Nguyễn Thị Hoa", "birdthday": "30/04/1997","sex": "nữ", "class": "P4"},
+        {"id": "G9","name": "Nguyễn Tâm", "birdthday": "30/04/1997","sex": "nam", "class": "P2"},
+        {"id": "G10","name": "Nguyễn Thị Thông", "birdthday": "30/04/1995","sex": "nữ", "class": "P4"}
+    ],
+    "position": [
+        {"id": "P1", "name": "Giám Đốc"},
+        {"id": "P2", "name": "Trưởng phòng"},
+        {"id": "P3", "name": "Thư kí"},
+        {"id": "P4", "name": "Nhân viên"}
+
+    ]
+
+}
